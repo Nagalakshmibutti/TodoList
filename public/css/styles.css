@@ -1,0 +1,95 @@
+
+body{
+    text-align: center;
+    background-color: rgb(172, 115, 238);
+    
+}
+ul li{
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+}
+input[type="text"]{
+    border-left: none;
+    border-top: none;
+    border-right:none;
+    text-align: center;
+    margin-left: 6rem;
+    border-bottom-color: blueviolet;
+    width: 15rem;
+    font-size: 0.9rem;
+    background-color: whitesmoke;
+}
+input:focus{
+   font-size: 0.9rem;
+   outline-style: none;
+   background-color: whitesmoke;
+}
+button{
+    border: solid 1px blueviolet;
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 8rem;
+    padding: 0.4rem;
+}
+.MainDiv{
+    margin: auto; 
+    margin-left: 3rem;
+
+}
+
+
+.Title{
+    margin: auto; 
+   width: 23rem; 
+   background: rgb(136, 109, 167);
+   padding: 0.1rem 2rem;
+   border-radius: 0.5rem;
+   box-shadow: 0.2rem 0.2rem 1rem  gainsboro;
+   
+}
+.SingleItem{
+    width: 22rem;
+    color:rgb(48, 15, 85) ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    display: inline-flex;
+    padding: 0.4rem;
+    box-sizing: border-box;
+    text-align: center;
+    word-break: break-all;
+
+}
+
+.listDiv{
+    margin: auto;
+    text-align-last: center;
+    background: white;
+    width: 27rem;
+    padding: 0rem 0rem;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 1rem  rgb(192, 182, 182);
+}
+/* To Crease the Size of checkBox */
+input[type="checkbox"]{
+    zoom: 1.6;
+}
+
+.submitForm{
+     margin: auto;
+    background: cornsilk;
+    width: 26rem;
+    padding-right: 1rem;
+    padding-top:0.5rem;
+    padding-bottom: 0.2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0.2rem 0.2rem 1rem  rgb(192, 182, 182);
+}
+footer{
+    margin: auto;
+    margin-top: 2rem;
+}
